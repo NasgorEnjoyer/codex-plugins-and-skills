@@ -1,0 +1,20 @@
+{
+  "name": "codex-plugins-and-skills",
+  "interface": {
+    "displayName": "Codex Plugins and Skills"
+  },
+  "plugins": [
+    {
+      "name": "precision-docx",
+      "source": {
+        "source": "local",
+        "path": "./plugins/precision-docx"
+      },
+      "policy": {
+        "installation": "INSTALLED_BY_DEFAULT",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

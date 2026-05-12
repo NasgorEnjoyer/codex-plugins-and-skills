@@ -1,0 +1,42 @@
+{
+  "name": "precision-docx",
+  "version": "0.1.0",
+  "description": "High-fidelity DOCX reading and writing workflows with strict embedded-image preservation checks.",
+  "author": {
+    "name": "NasgorEnjoyer",
+    "email": "NasgorEnjoyer@users.noreply.github.com",
+    "url": "https://github.com/NasgorEnjoyer"
+  },
+  "homepage": "https://github.com/NasgorEnjoyer/codex-plugins-and-skills/tree/main/plugins/precision-docx",
+  "repository": "https://github.com/NasgorEnjoyer/codex-plugins-and-skills",
+  "license": "MIT",
+  "keywords": [
+    "docx",
+    "wordprocessingml",
+    "images",
+    "openxml",
+    "visual-qa"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Precision DOCX",
+    "shortDescription": "Read, edit, and verify DOCX files where layout and images matter.",
+    "longDescription": "Precision DOCX adds a Codex workflow for package-level DOCX inspection, targeted WordprocessingML edits, embedded-image hashing, relationship checks, and render-based visual QA.",
+    "developerName": "NasgorEnjoyer",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write",
+      "Visual QA"
+    ],
+    "websiteURL": "https://github.com/NasgorEnjoyer/codex-plugins-and-skills/tree/main/plugins/precision-docx",
+    "privacyPolicyURL": "https://github.com/NasgorEnjoyer/codex-plugins-and-skills#privacy",
+    "termsOfServiceURL": "https://github.com/NasgorEnjoyer/codex-plugins-and-skills#terms",
+    "defaultPrompt": [
+      "Inspect this DOCX and inventory all images.",
+      "Edit this DOCX without changing embedded images.",
+      "Compare these DOCX files for visual and media drift."
+    ],
+    "brandColor": "#2563EB"
+  }
+}
