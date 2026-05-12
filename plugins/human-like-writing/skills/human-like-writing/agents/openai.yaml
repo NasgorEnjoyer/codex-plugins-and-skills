@@ -1,0 +1,4 @@
+interface:
+  display_name: "Human-Like Writing"
+  short_description: "Natural, honest prose and document writing"
+  default_prompt: "Use $human-like-writing to rewrite this document so it sounds natural, concise, and honest."

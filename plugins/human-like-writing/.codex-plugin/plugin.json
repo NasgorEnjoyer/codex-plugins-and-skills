@@ -1,0 +1,42 @@
+{
+  "name": "human-like-writing",
+  "version": "0.1.0",
+  "description": "Natural, honest writing workflows for documents, messages, and assistant responses.",
+  "author": {
+    "name": "NasgorEnjoyer",
+    "email": "NasgorEnjoyer@users.noreply.github.com",
+    "url": "https://github.com/NasgorEnjoyer"
+  },
+  "homepage": "https://github.com/NasgorEnjoyer/codex-plugins-and-skills/tree/main/plugins/human-like-writing",
+  "repository": "https://github.com/NasgorEnjoyer/codex-plugins-and-skills",
+  "license": "MIT",
+  "keywords": [
+    "writing",
+    "communication",
+    "plain-language",
+    "documents",
+    "tone"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Human-Like Writing",
+    "shortDescription": "Write natural, concise, honest prose.",
+    "longDescription": "Human-Like Writing turns research on cooperative conversation, tone fit, plain language, turn-taking, repair, and transparency into practical drafting and editing guidance for documents, messages, reports, prompts, and assistant responses.",
+    "developerName": "NasgorEnjoyer",
+    "category": "Productivity",
+    "capabilities": [
+      "Write",
+      "Edit",
+      "Evaluate"
+    ],
+    "websiteURL": "https://github.com/NasgorEnjoyer/codex-plugins-and-skills/tree/main/plugins/human-like-writing",
+    "privacyPolicyURL": "https://github.com/NasgorEnjoyer/codex-plugins-and-skills#privacy",
+    "termsOfServiceURL": "https://github.com/NasgorEnjoyer/codex-plugins-and-skills#terms",
+    "defaultPrompt": [
+      "Rewrite this document so it sounds natural and honest.",
+      "Draft a concise, human-sounding message.",
+      "Score this response for tone and clarity."
+    ],
+    "brandColor": "#0F766E"
+  }
+}
